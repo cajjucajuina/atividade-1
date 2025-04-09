@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripition" content="acesso-assinante">
+    <meta name="keywords" content="login,senha,assinatura,acesso,segurança,assinar">
+    <title>Assine</title>
+    <link rel="stylesheet" href="banana.css">
+    <link rel="stylesheet" href="banofee.css">
+</head>
+
+<body>
+    <main class="login-container">
+        
+        <form class="coraline"action="/login" method="POST">
+            <H1>Login</H1>
+            <div class="form-group">
+                <label for="E-mail">E-mail</label>
+                <div class="input-group">
+                    <input type="E-mail" name="email" id="E-mail" placeholder="E-mail" required autofocus>
+                </div>
+            </div>
+
+            <form action="/senha" method="POST">
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <div class="input-group">
+                        <input type="password" name="password" id="password" placeholder="Senha" required >
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="marinette">
+        <button type="submit">Acessar</button> </div>
+
+        <div class="v">
+            <a href="/validacao-cadastro">Já é assinante e não tem login?</a>
+        </div>
+
+
+            <div class="b">
+                <a href="/recuperar-senha">Esqueceu a senha?</a>
+            </div>
+
+
+
+        </form>
+    </main>
+</body>
+
+</html>

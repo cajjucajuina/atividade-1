@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/77/af/b7/77afb7df2cd7906cfed50e1a07d7df74.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+
+
+}
+
+.coraline {
+    justify-content: center;
+    background-color: thistle;
+    width: 350px;
+    height: 430px;
+    border-radius: 12px;
+    
+
+}

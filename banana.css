@@ -1,0 +1,41 @@
+button {
+    color: antiquewhite;
+    background-color: rgb(136, 95, 170);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    border-radius: 4px;
+    size-adjust: initial;
+}
+h1 {
+    color: rgb(107, 33, 175);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.form-group {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(47, 47, 47);
+    text-align: center;
+    padding:4px;
+    margin: 4px;
+    justify-content: center;
+}
+
+.marinette {
+    justify-content: center;
+    text-align: center;
+    padding:6px;
+    margin: 6px;
+}
+
+.v {
+    text-align: center;
+    padding:10px ;
+    margin:0px ;
+}
+.b {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
